@@ -7,11 +7,11 @@
 </template>
 <script setup>
 import { useFullscreen } from '@vueuse/core'
-// const { isFullscreen, enter, exit, toggle } = useFullscreen()
-const { toggle } = useFullscreen()
 import ACC from '../components/ACC.vue'
 import TodoList from '../components/TodoList.vue'
 
 import useMouse from '../utils/mouse'
+// const { isFullscreen, enter, exit, toggle } = useFullscreen()
+const { toggle } = useFullscreen()
 const { x, y } = useMouse()
 </script>
