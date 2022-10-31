@@ -15,3 +15,4 @@ import useMouse from '../utils/mouse'
 const { toggle } = useFullscreen()
 const { x, y } = useMouse()
 </script>
+<style scoped></style>
