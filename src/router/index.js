@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
+// import { createRouter, createWebHashHistory } from './gRouter'
 import Home from '../pages/Home.vue'
 import About from '../pages/About.vue'
 
