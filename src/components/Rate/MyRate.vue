@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { ref, defineProps, defineEmits } from 'vue'
+import { ref, defineProps } from 'vue'
 let props = defineProps({
   modelValue: Number
 })

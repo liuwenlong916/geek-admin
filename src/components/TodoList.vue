@@ -54,6 +54,9 @@ function addTodo() {
 function deleteDone() {
   todos.value = todos.value.filter(item => !item.done)
 }
+defineExpose({
+  deleteDone
+})
 </script>
 <style scoped>
 .done {

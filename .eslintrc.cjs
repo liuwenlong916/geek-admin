@@ -12,7 +12,12 @@ module.exports = {
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    //支持jsx写法
+    ecmaFeatures: {
+      jsx: true
+      // tsx: true
+    }
   },
   plugins: ['vue'],
   rules: {

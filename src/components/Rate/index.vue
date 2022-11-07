@@ -21,7 +21,7 @@
 
 <script setup>
 import themeObj from './enum'
-import { computed, ref, defineEmits } from 'vue'
+import { computed, ref } from 'vue'
 let props = defineProps({
   // value: Number,
   modelValue: Number,
