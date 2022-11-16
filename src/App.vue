@@ -15,11 +15,24 @@
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" /> -->
-  <div>
+  <!-- <div>
     <router-link to="/">首页</router-link> |
     <router-link to="/about">关于</router-link>
-  </div>
-  <router-view />
+  </div> -->
+  <el-container>
+    <el-header>Header</el-header>
+    <el-container>
+      <el-aside>
+        <div><router-link to="/"> Home</router-link></div>
+        <div><router-link to="/about">About</router-link></div></el-aside
+      >
+      <el-container>
+        <el-main>
+          <router-view />
+        </el-main>
+      </el-container>
+    </el-container>
+  </el-container>
   <!-- <ACC></ACC> -->
 </template>
 
@@ -36,5 +49,24 @@
 
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+</style>
+<style scoped>
+.el-header,
+.el-footer {
+  background-color: #b3c0d1;
+  color: #333;
+  text-align: center;
+}
+.el-aside {
+  background-color: #d3dce6;
+  color: #333;
+}
+.el-main {
+  background-color: #e9eef3;
+  color: #333;
+}
+body > .el-container {
+  margin-bottom: 40px;
 }
 </style>

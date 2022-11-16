@@ -32,4 +32,3 @@ onMounted(() => {
   console.log(todoes.value, heading.value.tag)
 })
 </script>
-<style scoped></style>
